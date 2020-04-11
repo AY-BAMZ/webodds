@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>web app</title>
+        <link rel="stylesheet" href="normalize.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css" >
+    </head>
+
+    <body>
+        <section id="broker">
+            <div class="container">
+                <h1>OUR WEB BROKER</h1>
+                <div id="calculator">
+                    <form>
+                        <label>
+                            how many package will you like to order <br>
+                            $ <input type="text" id="pack">
+                        </label>
+                        <label>
+                            select your package <br>
+                            <select id="package">
+                                <option disabled selected value="0">choose a package</option>
+                                <option value="5">trial</option>
+                                <option value="20">normal</option>
+                                <option value="60">standard</option>
+                                <option value="150">prenium</option>
+                                <option value="400">v.i.p</option>
+                            </select>
+                        </label>
+                        <label>
+                            how many package will you like to order <br>
+                            <input type="text" id="packect">
+                        </label>
+                        <button type="button" id="calc">calculator</button>
+                    </form>
+                    <div id="total">
+                        <sup>$</sup><span id="tot">0.00</span>
+                        <small id="each">each</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
